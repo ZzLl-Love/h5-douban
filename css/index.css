@@ -1,1 +1,134 @@
 @import "//at.alicdn.com/t/c/font_4782370_5tazvwtvwu5.css";
+
+
+/*统一样式*/
+button{
+    cursor: pointer;
+}
+/*统一样式END*/
+
+
+/*首页通用样式*/
+.container {
+    width: 950px;
+    margin: 0 auto;
+}
+
+.flot-left {
+    float: left;
+}
+
+.flot-right {
+    float: right;
+}
+
+.clearfix::after {
+    content: '';
+    display:block;
+    clear:both;
+}
+
+/*首页通用结束*/
+
+
+/**页头开始*/
+.heard {
+    height: 90px;
+    padding-top: 300px;
+}
+
+.heard container {
+    margin-top: 30px;
+}
+
+.heard .logo, .heard .menu, .hear search {
+    height: 30px;
+    /*border: 1px solid red;*/
+}
+
+.heard .logo a {
+    display: block;
+    width: 154px ;
+    height:0px ;
+    padding-top: 30px;
+    overflow: hidden;
+    background: url("../img/logo_db.png") no-repeat;
+}
+
+.heard .search {
+    width: 270px;
+    height: 30px;
+    border: 1px solid #c3c3ce;
+    margin-left: 20px;
+    margin-top: 21px;
+    position: relative;
+}
+
+.heard .search .txt {
+    width: 240px;
+    height: 20px;
+    padding: 5px;
+    font-size: 13px;
+}
+
+.header .search .txt::placeholder {
+    color: #ccc;
+}
+
+.heard .search  button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color:#c3c3c3;
+}
+
+/*搜索栏菜单区域*/
+.heard .menu {
+    margin-top: 26px;
+}
+
+.heard .menu a {
+    background: url("../img/nav.png") no-repeat left top/463px 20px;
+    width: 40px;
+    height: 20px;
+    float: left;
+    margin-left: 17px;
+}
+
+.heard .menu .menu-read {
+    background-position:  0 0;
+}
+/*todo 疑问？background-position 属性是什么意思 */
+.heard .menu .menu-movie {
+    background-position:  -60px 0;
+}
+
+.heard .menu .menu-music {
+    background-position:  -120px 0;
+}
+
+.heard .menu .menu-group {
+    background-position:  -180px 0;
+}
+
+.heard .menu .menu-city {
+    background-position:  -240px 0;
+}
+
+.heard .menu .menu-fm {
+    background-position:  -300px 0;
+}
+
+.heard .menu .menu-time {
+    background-position:  -360px 0;
+}
+.heard .menu .menu-doupin {
+    background-position:  -420px 0;
+    width: 43px;
+}
+
+
+/*搜索栏菜单区域END*/
+
+
+/**页头结束*/

@@ -1,0 +1,11 @@
+input,button {
+    border:none;
+    outline:none;
+    outline-offset:0px;
+}
+
+/*重置按钮*/
+button {
+    background: transparent;
+    padding: 0;
+}
